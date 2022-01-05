@@ -14,7 +14,8 @@
         "demo": "vue-do",
 
         "links":{
-            "github": ""
+            "github": "",
+            "deployment": ""
         }
     },
     {
@@ -33,26 +34,8 @@
         "demo": "vue-giphy",
 
         "links":{
-            "github": ""
-        }
-    },
-    {
-        "id": 3,
-        "title": "Festivals App",
-        "description": "My third vue app",
-        "website": "",
-        "tags": [
-            "Vue",
-            "Axios"
-        ],
-        "images": [
-            "vuegiph.png"
-        ],
-        "date": "2021",
-        "demo": "",
-
-        "links":{
-            "github": ""
+            "github": "",
+            "deployment": ""
         }
     },
     {
@@ -71,13 +54,14 @@
         "demo": "",
 
         "links":{
-            "github": ""
+            "github": "",
+            "deployment": "https://vue-country-project.web.app/"
         }
     },
     {
         "id": 5,
-        "title": "Sample Project",
-        "description": "My example project as dummy data",
+        "title": "Colleges Project",
+        "description": "Ca2 Connected to the Colleges API, with the different pieces of authorization",
         "website": "",
         "tags": [
             "Vue",
@@ -90,26 +74,8 @@
         "demo": "",
 
         "links":{
-            "github": ""
-        }
-    },
-    {
-        "id": 6,
-        "title": "Sample Project 2",
-        "description": "My Second example project as dummy thicc data this time",
-        "website": "",
-        "tags": [
-            "Vue",
-            "Axios"
-        ],
-        "images": [
-            "vuegiph.png"
-        ],
-        "date": "2021",
-        "demo": "vue-giph",
-
-        "links":{
-            "github": ""
+            "github": "",
+            "deployment": "https://clemente-gonzales-vue-ca2.web.app/"
         }
     }
 ]

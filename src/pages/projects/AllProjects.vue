@@ -34,6 +34,9 @@
                 </b-taglist>
               </p>
               <router-link v-if="project.demo" :to="{name: project.demo}">Demo</router-link>
+              <p v-if="project.links.deployment" >Copy and Paste this Link: <router-link :to="project.links.deployment">{{project.links.deployment}}</router-link> to view deployment</p>
+
+              
             </div>
           </div>
           <div class="content">
