@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "title": "VueDo",
+        "description": "My first to do app",
+        "website": "",
+        "tags": [
+            "Vue"
+        ],
+        "images": [
+            "vuedo.png"
+        ],
+        "date": "2021",
+        "demo": "vue-do",
+
+        "links":{
+            "github": ""
+        }
+    },
+    {
+        "id": 2,
+        "title": "VueGiph",
+        "description": "My Second vue app",
+        "website": "",
+        "tags": [
+            "Vue",
+            "Axios"
+        ],
+        "images": [
+            "vuegiph.png"
+        ],
+        "date": "2021",
+        "demo": "vue-giphy",
+
+        "links":{
+            "github": ""
+        }
+    },
+    {
+        "id": 3,
+        "title": "Festivals App",
+        "description": "My third vue app",
+        "website": "",
+        "tags": [
+            "Vue",
+            "Axios"
+        ],
+        "images": [
+            "vuegiph.png"
+        ],
+        "date": "2021",
+        "demo": "",
+
+        "links":{
+            "github": ""
+        }
+    },
+    {
+        "id": 4,
+        "title": "Rest Countries",
+        "description": "CA1 connected to a rest API",
+        "website": "",
+        "tags": [
+            "Vue",
+            "Axios"
+        ],
+        "images": [
+            "vuegiph.png"
+        ],
+        "date": "2021",
+        "demo": "",
+
+        "links":{
+            "github": ""
+        }
+    },
+    {
+        "id": 5,
+        "title": "Sample Project",
+        "description": "My example project as dummy data",
+        "website": "",
+        "tags": [
+            "Vue",
+            "Axios"
+        ],
+        "images": [
+            "vuegiph.png"
+        ],
+        "date": "2021",
+        "demo": "",
+
+        "links":{
+            "github": ""
+        }
+    },
+    {
+        "id": 6,
+        "title": "Sample Project 2",
+        "description": "My Second example project as dummy thicc data this time",
+        "website": "",
+        "tags": [
+            "Vue",
+            "Axios"
+        ],
+        "images": [
+            "vuegiph.png"
+        ],
+        "date": "2021",
+        "demo": "vue-giph",
+
+        "links":{
+            "github": ""
+        }
+    }
+]
