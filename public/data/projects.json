@@ -7,9 +7,7 @@
         "tags": [
             "Vue"
         ],
-        "images": [
-            "vuedo.png"
-        ],
+ 
         "date": "2021",
         "demo": "vue-do",
 
@@ -27,9 +25,7 @@
             "Vue",
             "Axios"
         ],
-        "images": [
-            "vuegiph.png"
-        ],
+    
         "date": "2021",
         "demo": "vue-giphy",
 
@@ -47,14 +43,14 @@
             "Vue",
             "Axios"
         ],
-        "images": [
-            "vuegiph.png"
-        ],
+        "images": 
+            "College.png"
+        ,
         "date": "2021",
         "demo": "",
 
         "links":{
-            "github": "",
+            "github": "https://github.com/CjayGonzales/FED-Ca.1",
             "deployment": "https://vue-country-project.web.app/"
         }
     },
@@ -67,14 +63,14 @@
             "Vue",
             "Axios"
         ],
-        "images": [
-            "vuegiph.png"
-        ],
+        "images": 
+            "College.png"
+        ,
         "date": "2021",
         "demo": "",
 
         "links":{
-            "github": "",
+            "github": "https://github.com/CjayGonzales/FED-Ca.2",
             "deployment": "https://clemente-gonzales-vue-ca2.web.app/"
         }
     }

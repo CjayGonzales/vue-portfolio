@@ -10,7 +10,7 @@
       :key="project.id">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img v-if="project.images" :src="require(`@/assets/${project.images}`)" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
@@ -34,8 +34,9 @@
                 </b-taglist>
               </p>
               <router-link v-if="project.demo" :to="{name: project.demo}">Demo</router-link>
-              <p v-if="project.links.deployment" >Copy and Paste this Link: <router-link :to="project.links.deployment">{{project.links.deployment}}</router-link> to view deployment</p>
-
+              <a v-if="project.links.deployment" :href="project.links.deployment" target="_blank">View Website</a>
+              <br>
+              <a v-if="project.links.github" :href="project.links.github" target="_blank">View Github</a>
               
             </div>
           </div>
