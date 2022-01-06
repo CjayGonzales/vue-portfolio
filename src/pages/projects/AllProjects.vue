@@ -8,19 +8,19 @@
 
       <div class="card" v-for="project in filteredProjects"
       :key="project.id">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img v-if="project.images" :src="require(`@/assets/${project.images}`)" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img class="fit_cover" v-if="project.images" :src="require(`@/assets/${project.images}`)" alt="Placeholder image">
+        </figure>
+      </div>
+        <div class="card-content " >
+          <div class="media ">
             <!-- <div class="media-left">
               <figure class="image is-48x48">
                 <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
               </figure>
             </div> -->
-            <div class="media-content">
+            <div class="media-content ">
               <p class="title is-4">{{ project.title }}</p>
               <p class="subtitle is-6">
                 <b-taglist>
@@ -94,5 +94,14 @@ export default {
 </script>
 
 <style>
+
+.fit_cover{
+  object-fit: cover;
+  
+}
+
+.dark{
+  background-color: black;
+}
 
 </style>

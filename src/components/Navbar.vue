@@ -1,9 +1,22 @@
 <template>
   <div>
-      <router-link :to="{name: 'home'}">Home</router-link> |
-      <router-link :to="{name: 'about'}">About</router-link> |
-      <router-link :to="{name: 'contact'}">Contacts</router-link> |
-      <router-link :to="{name: 'projects'}">Projects</router-link> |
+    <div>
+      <b-navbar toggleable="lg" type="dark" variant="dark">
+        <b-navbar-brand href="#">CG</b-navbar-brand>
+
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <b-nav-item :to="{name: 'home'}">Home</b-nav-item> 
+            <b-nav-item :to="{name: 'contact'}">Contacts</b-nav-item> 
+            <b-nav-item :to="{name: 'projects'}">Projects</b-nav-item> 
+          </b-navbar-nav>
+
+        </b-collapse>
+      </b-navbar>
+    </div>
+
 
   </div>
 </template>
@@ -19,3 +32,4 @@ export default {
 <style>
 
 </style>
+
