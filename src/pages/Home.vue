@@ -9,7 +9,15 @@
       <div class="col-6">
         <h3>About</h3>
         <h1 class="header">Clemente Gonzales</h1>
-        <p class="margin_sm">Hi! My name is Clemente Gonzales. Im a student studying Creative Computing in IADT with a love for Front End Development and Design</p>
+        <p class="margin_sm">
+          Hi! My name is Clemente Gonzales. Im a student studying Creative Computing in IADT with a love for 
+          Front End Development and Design. I specialize in web design, and I am familiar with HTML5, CSS, Javascript, PHP aswell
+          as different frameworks and libraries such as Vue, Bootstrap, Material Design and GSAP for animating web pages
+
+
+        </p>
+
+        <b-button type="dark" squared class="projects_button margin_sm" :to="{name: 'projects'}">View my Projects</b-button>
       </div>
       
     </div>
@@ -26,6 +34,11 @@ export default {
 </script>
 
 <style>
+
+.projects_button{
+  width: 200px;
+  border-radius: 0;
+}
 
 .background_dark{
   background-color: black;

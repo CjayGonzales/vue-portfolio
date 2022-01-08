@@ -2,11 +2,11 @@
   <div class="columns">
     <div class="column">
 
-      <b-field label="Search Projects">
+      <b-field class="margin_md" label="Search Projects">
         <b-input v-model="searchTerm"></b-input>
       </b-field>
 
-      <div class="card" v-for="project in filteredProjects"
+      <div class="card margin_md" v-for="project in filteredProjects"
       :key="project.id">
       <div class="card-image">
         <figure class="image is-4by3">
@@ -102,6 +102,19 @@ export default {
 
 .dark{
   background-color: black;
+}
+
+
+.margin_sm{
+  margin-top: 10px;
+}
+
+.margin_md{
+  margin-top: 60px;
+}
+
+.margin_lg{
+  margin-top: 100px;
 }
 
 </style>
